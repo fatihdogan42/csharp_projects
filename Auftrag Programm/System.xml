@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="yes"?>
+<SystemSetting>
+  <Configuration>
+	<SQLConnectionString1>Data Source=DOGAN-HP\SQLEXPRESS;Initial Catalog=ReservationDB;Integrated Security=True;</SQLConnectionString1>
+	<SQLConnectionString>Data Source=DOGAN-HP\SQLEXPRESS;Initial Catalog=ReservationDB;Integrated Security=false; User ID=APPUSER;Password=appuser11;</SQLConnectionString>
+	<CheckExcelRetry>5</CheckExcelRetry>	
+    <ShowPDFAfterProcess>True</ShowPDFAfterProcess>
+	<CreateLog>True</CreateLog>
+  </Configuration>  
+  
+  <SheetNames>
+    <Name>1-AuftragVorlage</Name>
+  </SheetNames>
+  <SheetNames>
+    <Name>2-Transportauftrag Vorholung</Name>
+  </SheetNames>
+   <SheetNames>
+    <Name>3-Transport</Name>
+  </SheetNames>
+  <SheetNames>
+    <Name>4-Transportauftrag Zustellung</Name>
+  </SheetNames> 
+  <SheetNames>
+    <Name>5-CMR</Name>
+  </SheetNames>
+  
+  
+  <Positionsart>
+    <Name>Vorholung</Name>
+  </Positionsart>
+  <Positionsart>
+    <Name>Vorholung mit Zollstopp</Name>
+  </Positionsart>
+  <Positionsart>
+    <Name>Zustellung</Name>
+  </Positionsart>
+  <Positionsart>
+    <Name>Zustellung mit Zollstopp</Name>
+  </Positionsart>
+  <Positionsart>
+    <Name>Transport</Name>
+  </Positionsart>
+   <Positionsart>
+    <Name>Transport mit Zollstopp</Name>
+  </Positionsart>
+  <Positionsart>
+    <Name>Dokumentenerstellung</Name>
+  </Positionsart>
+  <Positionsart>
+    <Name>Dienstleistung</Name>
+  </Positionsart>
+  
+   <Bearbeiter>
+    <Name>Ilyas Ordu</Name>
+  </Bearbeiter>
+     <Bearbeiter>
+    <Name>Jasminka Nezic</Name>
+  </Bearbeiter>
+     <Bearbeiter>
+    <Name>Tülay Ordu</Name>
+  </Bearbeiter>
+     <Bearbeiter>
+    <Name>Gülcan Güleroglu</Name>
+  </Bearbeiter>
+     <Bearbeiter>
+    <Name>Personal Neu</Name>
+  </Bearbeiter>  
+  
+  <Currency>
+    <Name>EUR</Name>
+	<Symbol>€</Symbol>
+  </Currency>
+  <Currency>
+    <Name>TRY</Name>
+	<Symbol>₺</Symbol>
+  </Currency>
+   <Currency>
+    <Name>USD</Name>
+	<Symbol>$</Symbol>
+  </Currency>
+   <Currency>
+    <Name>GBP</Name>
+	<Symbol>£</Symbol>
+  </Currency>
+   <Currency>
+    <Name>CHF</Name>
+	<Symbol>CHF</Symbol>
+  </Currency>
+  
+   <Packstuck>
+    <Name>Packstück</Name>
+  </Packstuck>
+     <Packstuck>
+    <Name>Packstücke</Name>
+  </Packstuck>
+     <Packstuck>
+    <Name>Palette</Name>
+  </Packstuck>
+     <Packstuck>
+    <Name>Paletten</Name>
+  </Packstuck>
+     <Packstuck>
+    <Name>Kolli</Name>
+  </Packstuck>  
+     <Packstuck>
+    <Name>Karton</Name>
+  </Packstuck>
+     <Packstuck>
+    <Name>Stück</Name>
+  </Packstuck>
+     <Packstuck>
+    <Name>Ladung</Name>
+  </Packstuck>  
+  
+   <ZolldocumentChoice>
+    <Name>T2</Name>
+  </ZolldocumentChoice>  
+    <ZolldocumentChoice>
+    <Name>T1</Name>
+  </ZolldocumentChoice>  
+    <ZolldocumentChoice>
+    <Name>T</Name>
+  </ZolldocumentChoice>  
+  
+   <ZolldokumentVerschluss>
+    <Name>Verschluss</Name>
+  </ZolldokumentVerschluss>  
+    <ZolldokumentVerschluss>
+    <Name>Gestellt ATB</Name>
+  </ZolldokumentVerschluss>  
+    <ZolldokumentVerschluss>
+    <Name>Gültig bis</Name>
+  </ZolldokumentVerschluss>  
+  
+   <ATRStatement>
+    <Name>Kopie</Name>
+  </ATRStatement>  
+    <ATRStatement>
+    <Name>Original</Name>
+  </ATRStatement>  
+  
+</SystemSetting>
